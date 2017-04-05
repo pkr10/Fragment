@@ -50,6 +50,7 @@ public class data extends MainFragement{
         return (String) kiwi.get(i);
     }
     public void jagetdata(String a){
+
         ja.add(a);
     }
     public void jasetdata(int i, String a) {
