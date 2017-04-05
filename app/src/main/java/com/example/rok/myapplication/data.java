@@ -4,7 +4,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by rok on 2017. 4. 4..
@@ -26,16 +25,7 @@ public class data extends MainFragement{
     public String returndata(int i){
         return (String) grape.get(i);
     }
-    public void delete(){
 
-
-        grape.remove(1);
-        grape.remove(2);
-        grape.remove(3);
-        grape.remove(4);
-
-
-    }
     public void applegetdata(String a){
 
         apple.add(a);
@@ -69,23 +59,4 @@ public class data extends MainFragement{
 
         return (String) ja.get(i);
     }
-    public void appledelete(){
-        for(int i=0;i<5;i++) {
-
-
-            apple.remove(i);
-        }
-    }
-    public void kiwidelete(){
-        for(int i=1;i<5;i++) {
-
-
-            kiwi.remove(i);
-        }
-    }
-    public void jadelete(){
-        for(int i=1;i<5;i++) {
-            ja.remove(i);
-        }
-    }
-}
+   }

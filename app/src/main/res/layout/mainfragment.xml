@@ -16,8 +16,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
 
     <Button
         android:text="키위테이블(비어있음)"
@@ -61,99 +61,6 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="10dp" />
 
-    <TextView
-        android:text="테이블명"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button4"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textView" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/t1"
-        android:layout_below="@+id/button4"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:text="입장시간"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView17"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="16dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView17"
-        android:layout_alignStart="@+id/t1"
-        android:id="@+id/t2" />
-
-    <EditText
-        android:visibility="invisible"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:layout_alignTop="@+id/textView19"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/e1" />
-
-    <TextView
-        android:text="피자"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/e1"
-        android:layout_alignEnd="@+id/textView19"
-        android:id="@+id/textView20"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="멤버쉽카드"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/e2"
-        android:id="@+id/textView21" />
-
-    <CheckedTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/e2"
-        android:layout_alignEnd="@+id/button6"
-        android:id="@+id/ct1" />
-
-    <TextView
-        android:text="가격"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView21"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="23dp"
-        android:id="@+id/textView22" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView22"
-        android:layout_alignEnd="@+id/t2"
-        android:id="@+id/t5" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/e1"
-        android:id="@+id/t3"
-        android:layout_alignStart="@+id/t2" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/e1"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/t4" />
 
     <Button
         android:visibility="invisible"
@@ -164,23 +71,107 @@
         android:layout_alignStart="@+id/button6"
         android:id="@+id/button8" />
 
-    <EditText
-        android:visibility="invisible"
+    <TextView
+        android:textColor="#5871ef"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/e2"
-        android:layout_below="@+id/e1"
-        android:layout_alignStart="@+id/e1" />
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignEnd="@+id/t1"
+        android:id="@+id/t2" />
 
     <TextView
         android:text="스파게티"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:id="@+id/textView19"
-        android:layout_below="@+id/textView17"
-        android:layout_alignEnd="@+id/textView22" />
+        android:layout_below="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:textColor="#5871ef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignEnd="@+id/t2"
+        android:id="@+id/t3" />
+
+    <TextView
+        android:textColor="#5871ef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignEnd="@+id/t3"
+        android:id="@+id/t4" />
+
+    <TextView
+        android:text="입장시간"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:textColor="#5871ef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/t5" />
+
+    <TextView
+        android:textColor="#5871ef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t6"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignStart="@+id/t5" />
+
+    <TextView
+        android:textColor="#5871ef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="테이블명"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button7" />
+
+    <TextView
+        android:text="피자"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:text="멤버쉽카드"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:text="가격"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
 
 </RelativeLayout>
